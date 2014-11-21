@@ -282,7 +282,7 @@ create any other visualizations you want as well.
 
 #### Reporting and Alerting
 
-Pingpong uses [Pushpop](https://github.com/pushpop/pingpong.git) to provide basic alerting and reporting functionality. This functionality can easily be extended to create your own custom alerts and reports.
+Pingpong uses [Pushpop](https://github.com/pushpop-project/pushpop) to provide basic alerting and reporting functionality. This functionality can easily be extended to create your own custom alerts and reports.
 
 By default, a Pingpong instance started with `foreman start` will run Pushpop jobs. If you don't want this to be the case (for example if you run multiple geographically distributed Pingpongs and only want 1 to do the alerting), set the environment variable `SKIP_PUSHPOP=1`.
 
